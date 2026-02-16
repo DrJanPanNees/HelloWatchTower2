@@ -7,5 +7,6 @@ app.MapGet("/healthz", () => Results.Ok("Healthy"));
 
 app.MapGet("/", () => "Hello World!");
 app.MapGet("/", () => "Jan Pan Nees!");
+app.MapGet("/", () => "Jan Pan Nees2!");
 
 app.Run();
