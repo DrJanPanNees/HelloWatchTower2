@@ -6,5 +6,6 @@ app.MapGet("/", () => "🚀 CI/CD VIRKER! Opdateret kl. " + DateTime.Now.ToLongT
 app.MapGet("/healthz", () => Results.Ok("Healthy")); 
 
 app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "Jan Pan Nees!");
 
 app.Run();
